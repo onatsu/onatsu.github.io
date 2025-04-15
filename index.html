@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity Web Player | BallFighter2D</title>
-    <base href="/" />
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -52,7 +51,7 @@
         updateBannerVisibility();
       }
 
-      var buildUrl = ".";
+      var buildUrl = "Build";
       var loaderUrl = buildUrl + "/BallFighterDemo.loader.js";
       var config = {
         arguments: [],
@@ -60,9 +59,9 @@
         frameworkUrl: buildUrl + "/BallFighterDemo.framework.js",
         codeUrl: buildUrl + "/BallFighterDemo.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
+        companyName: "Onatsu",
         productName: "BallFighter2D",
-        productVersion: "1.0",
+        productVersion: "0.1.6",
         showBanner: unityShowBanner,
       };
 
